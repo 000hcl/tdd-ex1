@@ -85,7 +85,8 @@ function createApp(database) {
     return date.getDay() === 1;
   }
 
-  function isHoliday(date) {
+  function isHoliday2(date) {
+
   }
 
   function isHoliday(date) {
