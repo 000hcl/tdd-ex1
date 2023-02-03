@@ -73,7 +73,7 @@ function createApp(database) {
     return Math.ceil(baseCost * (1 - reduction / 100));
   }
 
-  
+  function dateToPlainDate(date) {}
 
   function calculateReduction(date) {
     let reduction = 0;
