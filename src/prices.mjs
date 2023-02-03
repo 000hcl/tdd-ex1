@@ -113,7 +113,6 @@ function createApp(database) {
     for (let row of holidays) {
       let holiday = new Date(row.holiday);
       if (
-        date.getMonth() === holiday.getMonth() &&
         date.getDate() === holiday.getDate()
       ) {
         return true;
