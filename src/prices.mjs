@@ -108,7 +108,7 @@ function createApp(database) {
     return false;
   }
 
-  function isHoliday(date) {return false;}
+
 
   return app;
 }
