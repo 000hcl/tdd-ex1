@@ -75,7 +75,8 @@ function createApp(database) {
   }
 
   function dateToPlainDate(date) {
-    if (true) {}
+    if (true) {
+    }
     return new Temporal.PlainDate(date.getFullYear(), date.getMonth(), date.getDate());
   }
 
