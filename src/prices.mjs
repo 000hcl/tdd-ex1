@@ -30,7 +30,7 @@ function createApp(database) {
   }
 
   function parsePlainDate(dateString) {
-    return;
+    return Temporal.PlainDate.from(dateString);
   }
 
   function calculateCost(age, type, date, baseCost) {
