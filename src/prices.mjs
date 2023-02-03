@@ -78,7 +78,7 @@ function createApp(database) {
     if (date) {
       return new Temporal.PlainDate(date.getFullYear(), date.getMonth(), date.getDate());
     }
-    return new Temporal.PlainDate(date.getFullYear(), date.getMonth(), date.getDate());
+    
   }
 
   function calculateReduction(date) {
