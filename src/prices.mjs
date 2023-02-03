@@ -30,7 +30,8 @@ function createApp(database) {
   }
 
   function parsePlainDate(dateString) {
-    return;}
+    return;
+  }
 
   function calculateCost(age, type, date, baseCost) {
     if (type === "night") {
